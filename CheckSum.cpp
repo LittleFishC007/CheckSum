@@ -5,6 +5,11 @@
 #include <Windows.h>
 
 int g_Total = 0;
+
+void Add(int a, int b)
+{
+    return a + b;
+}
 DWORD WINAPI ThreadProc(LPVOID lpParameter)
 {
    
@@ -38,6 +43,7 @@ int main()
     }
     CreateThread(NULL, 0, ThreadProc, NULL, 0, NULL);
     printf("CheckSum\n");
+    int ret = Add(42, 15);
     system("pause");
     return 0;
 }
