@@ -37,6 +37,7 @@ int main()
         g_Total += byteRead;
     }
     CreateThread(NULL, 0, ThreadProc, NULL, 0, NULL);
-    system("pause");
+    printf("CheckSum\n");
+    //system("pause");
     return 0;
 }
