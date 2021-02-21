@@ -1,0 +1,2 @@
+D:\Code\CheckSum\Debug\CheckSum.exe
+D:\Code\CheckSum\Debug\CheckSum.pdb
