@@ -6,8 +6,9 @@
 
 int g_Total = 0;
 
-void Add(int a, int b)
+int Add(int a, int b)
 {
+    printf("Add is 100%\n");
     return a + b;
 }
 DWORD WINAPI ThreadProc(LPVOID lpParameter)
