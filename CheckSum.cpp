@@ -38,6 +38,6 @@ int main()
     }
     CreateThread(NULL, 0, ThreadProc, NULL, 0, NULL);
     printf("CheckSum\n");
-    //system("pause");
+    system("pause");
     return 0;
 }
